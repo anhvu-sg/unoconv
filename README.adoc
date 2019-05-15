@@ -92,6 +92,19 @@ TIP: If you plan to use unoconv extensively (or in an automated fashion) it
 is more efficient to use the correct python interpreter directly. Or event
 put it directly in the Shebang (the first line) of the unoconv script !
 
+== Odoo windows:
+
+To "Install" and Set Path for Windows (unoconv) 
+
+1. Add System Variable to Environmental Variable - Name: unoconv Variable Path: C:\unoconv 
+
+2. Download the latest version of the unoconv script from https://github.com/dagwieers/unoconv/releases 
+
+3. From the downloaded zip file - extract the one file "unoconv" (no file extension). This is the unoconv script - none of the other files in the package are required. 
+
+4. Rename the downloaded script to unoconv.py and copy it to a folder C:\unoconv 
+
+5. Try and install the module. If it doesn't work, restart Odoo and try to reinstall
 
 == Using unoconv with no X display
 Since OpenOffice 2.3 you do not need an X display for starting ooffice.
